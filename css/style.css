@@ -31,7 +31,7 @@ p.header {
     font-weight: bold; 
 }
 .lower-header {
-    margin-top: -20px;
+    margin-top: -15px;
     color: white;
     font-size: 14px;
 }
@@ -40,6 +40,49 @@ p.header {
     color: white;
     font-weight: bold;
 }
+.upper-middle{
+    color: black;
+}
+.left-panel{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.left-panel-text{
+    margin-left: -35px;
+}
+.left-panel-bottom{
+    margin-left: -1500px;
+    margin-top: -15px;
+}
+.gallery2{
+    margin-left: -5px;
+}
+.gallery3{
+    margin-top: -32px;
+}
+.gallery4{
+    margin-top: -40px;
+    margin-left: -40px;
+}
+.gallery5{
+    margin-top: -163px;
+    margin-left: -3px;
+}
+.gallery6{
+    margin-left: -3px;
+    margin-top: -30px;
+}
+.gallery7{
+    margin-top: 75px;
+    margin-left: -185px;
+}
+.right-panel{
+    margin-left: -50px;
+    margin-top: -70px;
+}
+.right-panel-text{
+    margin-left: -50px;
+}
 .middle {
     background-image: url('middle.png');
     background-repeat: no-repeat;
@@ -47,9 +90,11 @@ p.header {
     padding-top: 100px;
     padding-bottom: 200px;
 }
-.lower-middle{
+.lower-middle {
     color: black;
     padding: 50px 20px;
+    padding-top: 30px;
+    padding-bottom: 100px;
 }
 .lower-middle-center{
     text-align: center;
@@ -61,15 +106,29 @@ p.header {
 }
 .lower-middle-bottom{
     background-color: #F5F5F5;
-    text-align: center;
+    text-align: center;  
+    margin-top: 50px;
 }
 .center {
     text-align: center;
     color: white;
 }
-.center-text{
-    margin-bottom: 50px;
+.center-box{
+    text-align: center;
+    color: white;
+    display: table;
     border: 1.5px solid white;
+    margin-left: 870px;
+    margin-bottom: 30px;
+}
+.v-align{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -15px;
     font-size: 23px;
     display: table-cell;
+}
+.box{
+    vertical-align: top;
+    display: inline-block;
 }
